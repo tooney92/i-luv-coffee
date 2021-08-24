@@ -13,7 +13,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
       password: '123',
       database: 'postgres',
       autoLoadEntities: true,
-      //disable below in production tony!
+      //disable below in production !
       synchronize: true,
     }),
   ],
